@@ -7,35 +7,25 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div>
-    <Header />
-    <Content>
-        <Switch>
-            <Route
-                component={[Function]}
-                exact={true}
-                path="/" />
-            <Route
-                component={[Function]}
-                path="/basla" />
-        </Switch>
-    </Content>
-    <Footer />
+    <h2>
+        Ana sayfa
+    </h2>
+    <Link
+        replace={false}
+        to="/basla">
+        Kullanmaya Başla
+    </Link>
 </div>,
   "nodes": Array [
     <div>
-      <Header />
-      <Content>
-            <Switch>
-                  <Route
-                        component={[Function]}
-                        exact={true}
-                        path="/" />
-                  <Route
-                        component={[Function]}
-                        path="/basla" />
-            </Switch>
-      </Content>
-      <Footer />
+      <h2>
+            Ana sayfa
+      </h2>
+      <Link
+            replace={false}
+            to="/basla">
+            Kullanmaya Başla
+      </Link>
 </div>,
   ],
   "options": Object {},
@@ -44,7 +34,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <App />,
+      "_currentElement": <Home />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -73,35 +63,25 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
-          <Header />
-          <Content>
-                    <Switch>
-                              <Route
-                                        component={[Function]}
-                                        exact={true}
-                                        path="/" />
-                              <Route
-                                        component={[Function]}
-                                        path="/basla" />
-                    </Switch>
-          </Content>
-          <Footer />
+          <h2>
+                    Ana sayfa
+          </h2>
+          <Link
+                    replace={false}
+                    to="/basla">
+                    Kullanmaya Başla
+          </Link>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
-          <Header />
-          <Content>
-                    <Switch>
-                              <Route
-                                        component={[Function]}
-                                        exact={true}
-                                        path="/" />
-                              <Route
-                                        component={[Function]}
-                                        path="/basla" />
-                    </Switch>
-          </Content>
-          <Footer />
+          <h2>
+                    Ana sayfa
+          </h2>
+          <Link
+                    replace={false}
+                    to="/basla">
+                    Kullanmaya Başla
+          </Link>
 </div>,
       },
       "_renderedNodeType": 0,
@@ -114,6 +94,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <App />,
+  "unrendered": <Home />,
 }
 `;
