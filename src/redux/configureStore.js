@@ -1,11 +1,12 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { createLogger } from 'redux-logger';
+import { routerMiddleware } from 'react-router-redux';
 
 import rootReducer from './modules';
 
-const configureStore = prelodedState => {
-  const middlewares = [thunk];
+const configureStore = (prelodedState, history) => {
+  const middlewares = [thunk, routerMiddleware(history)];
 
   /* istanbul ignore if */
   if (process.env.NODE_ENV === 'development') {
