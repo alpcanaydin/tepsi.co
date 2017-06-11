@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "codecov": "^2.1.0",
@@ -12,6 +16,7 @@
     "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-prettier": "^2.1.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-prettier": "^2.0.1",
