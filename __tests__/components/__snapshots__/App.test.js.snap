@@ -18,14 +18,6 @@ ShallowWrapper {
             Welcome to React App
         </h2>
     </div>
-    <p
-        className="App-intro">
-        To get started, edit 
-        <code>
-            src/App.js
-        </code>
-         and save to reload.
-    </p>
 </div>,
   "nodes": Array [
     <div
@@ -40,14 +32,6 @@ ShallowWrapper {
                   Welcome to React App
             </h2>
       </div>
-      <p
-            className="App-intro">
-            To get started, edit 
-            <code>
-                  src/App.js
-            </code>
-             and save to reload.
-      </p>
 </div>,
   ],
   "options": Object {},
@@ -96,14 +80,6 @@ ShallowWrapper {
                               Welcome to React App
                     </h2>
           </div>
-          <p
-                    className="App-intro">
-                    To get started, edit 
-                    <code>
-                              src/App.js
-                    </code>
-                     and save to reload.
-          </p>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
@@ -118,14 +94,6 @@ ShallowWrapper {
                               Welcome to React App
                     </h2>
           </div>
-          <p
-                    className="App-intro">
-                    To get started, edit 
-                    <code>
-                              src/App.js
-                    </code>
-                     and save to reload.
-          </p>
 </div>,
       },
       "_renderedNodeType": 0,

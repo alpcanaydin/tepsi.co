@@ -7,12 +7,14 @@ import rootReducer from './modules';
 const configureStore = prelodedState => {
   const middlewares = [thunk];
 
+  /* istanbul ignore if */
   if (process.env.NODE_ENV === 'development') {
     middlewares.push(createLogger());
   }
 
   const composed = [applyMiddleware(...middlewares)];
 
+  /* istanbul ignore if */
   if (process.env.NODE_ENV === 'development') {
     /* eslint-disable */
     composed.push(window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
@@ -21,6 +23,7 @@ const configureStore = prelodedState => {
 
   const store = createStore(rootReducer, prelodedState, compose(...composed));
 
+  /* istanbul ignore if */
   if (process.env.NODE_ENV === 'development' && module.hot) {
     module.hot.accept('./modules', () => {
       // eslint-disable-next-line

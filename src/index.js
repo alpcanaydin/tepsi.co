@@ -18,6 +18,7 @@ const render = Component => {
   );
 };
 
+/* istanbul ignore if */
 if (process.env.NODE_ENV === 'development' && module.hot) {
   module.hot.accept('./components/App', () => {
     // eslint-disable-next-line
