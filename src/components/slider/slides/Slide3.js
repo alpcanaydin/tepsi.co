@@ -15,7 +15,7 @@ const Slide3 = () => (
         ver. Hangi komutların ne işe yaradığını öğrenmek için buraya tıkla!
       </p>
 
-      <Button>Kullanmaya Başla!</Button>
+      <Button primary>Kullanmaya Başla!</Button>
     </div>
     <div className="col-md-6 u-text-center">
       <img

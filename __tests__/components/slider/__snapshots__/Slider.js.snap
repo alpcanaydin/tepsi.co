@@ -1,0 +1,111 @@
+exports[`test renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Slider
+    className="Slider"
+    dots={true}>
+    <div>
+        <Slide1 />
+    </div>
+    <div>
+        <Slide2 />
+    </div>
+    <div>
+        <Slide3 />
+    </div>
+</Slider>,
+  "nodes": Array [
+    <Slider
+      className="Slider"
+      dots={true}>
+      <div>
+            <Slide1 />
+      </div>
+      <div>
+            <Slide2 />
+      </div>
+      <div>
+            <Slide3 />
+      </div>
+</Slider>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Slider />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Slider
+          className="Slider"
+          dots={true}>
+          <div>
+                    <Slide1 />
+          </div>
+          <div>
+                    <Slide2 />
+          </div>
+          <div>
+                    <Slide3 />
+          </div>
+</Slider>,
+        "_debugID": 2,
+        "_renderedOutput": <Slider
+          className="Slider"
+          dots={true}>
+          <div>
+                    <Slide1 />
+          </div>
+          <div>
+                    <Slide2 />
+          </div>
+          <div>
+                    <Slide3 />
+          </div>
+</Slider>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Slider />,
+}
+`;

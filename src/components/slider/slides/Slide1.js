@@ -16,7 +16,7 @@ const Slide1 = () => (
         sistem geliştirdik.
       </p>
 
-      <Button>Kullanmaya Başla!</Button>
+      <Button primary>Kullanmaya Başla!</Button>
     </div>
     <div className="col-md-6 u-text-center">
       <img

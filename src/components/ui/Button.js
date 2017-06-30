@@ -18,8 +18,8 @@ const Button = ({ primary, secondary, children, ...otherProps }) => {
 };
 
 Button.defaultProps = {
-  primary: true,
-  secondary: false,
+  primary: undefined,
+  secondary: undefined,
 };
 
 Button.propTypes = {
