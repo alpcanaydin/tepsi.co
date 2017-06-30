@@ -8,8 +8,10 @@ import Content from './Content';
 import Home from '../routes/Home';
 import Start from '../routes/Start';
 
+import './App.css';
+
 const App = () => (
-  <div>
+  <div className="App">
     <Header />
     <Content>
       <Switch>
