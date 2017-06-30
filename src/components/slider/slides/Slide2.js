@@ -6,9 +6,9 @@ import image from '../../../img/slides/slider-image-2.svg';
 const Slide2 = () => (
   <div className="row Slider__slide">
     <div className="col-md-6">
-      <h1 className="Slider__title Slider__title--main">
+      <h2 className="Slider__title">
         Kategorini seç, senin için seçtiğimiz videonun keyfini çıkar!
-      </h1>
+      </h2>
 
       <p className="u-gap-bottom">
         Video izlemeye başlamak için ilk önce kategorini seç ve rastgele

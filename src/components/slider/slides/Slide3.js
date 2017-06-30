@@ -6,9 +6,9 @@ import image from '../../../img/slides/slider-image-3.svg';
 const Slide3 = () => (
   <div className="row Slider__slide">
     <div className="col-md-6">
-      <h1 className="Slider__title Slider__title--main">
+      <h2 className="Slider__title">
         Yağlı ellerinle klavyeye dokunma, seslenerek Tepsi’yi kontrol et!
-      </h1>
+      </h2>
 
       <p className="u-gap-bottom">
         Yağlı ellerinle klavye ve mouse’unu kirletme, seslenerek Tepsi’ye komutlar
