@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-image: url(img/bg.png);
 }
 
 a {
