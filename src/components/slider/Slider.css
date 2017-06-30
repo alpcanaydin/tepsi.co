@@ -1,0 +1,11 @@
+.Slider__slide {
+  align-items: center;
+}
+
+.Slider__title {
+  margin-top: 0;
+}
+
+.Slider__title--main {
+  font-size: 36px;
+}
