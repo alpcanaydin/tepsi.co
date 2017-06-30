@@ -6,13 +6,17 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <h1>
-    Header
-</h1>,
+  "node": <img
+    alt="tepsi.co"
+    height="46"
+    src="logo.svg"
+    width="155" />,
   "nodes": Array [
-    <h1>
-      Header
-</h1>,
+    <img
+      alt="tepsi.co"
+      height="46"
+      src="logo.svg"
+      width="155" />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -20,7 +24,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Header />,
+      "_currentElement": <Logo />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -48,13 +52,17 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <h1>
-          Header
-</h1>,
+        "_currentElement": <img
+          alt="tepsi.co"
+          height="46"
+          src="logo.svg"
+          width="155" />,
         "_debugID": 2,
-        "_renderedOutput": <h1>
-          Header
-</h1>,
+        "_renderedOutput": <img
+          alt="tepsi.co"
+          height="46"
+          src="logo.svg"
+          width="155" />,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -66,6 +74,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Header />,
+  "unrendered": <Logo />,
 }
 `;

@@ -4,6 +4,9 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import createHistory from 'history/createBrowserHistory';
 
+import 'normalize.css/normalize.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
+
 import configureStore from './redux/configureStore';
 
 import App from './components/App';

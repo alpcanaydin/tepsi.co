@@ -1,0 +1,39 @@
+.Button {
+  border-width: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  display: inline-block;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  padding: 13px 30px;
+  border-radius: 2px;
+}
+
+.Button:hover,
+.Button:focus {
+  text-decoration: none;
+}
+
+.Button--primary {
+  background-color: #ff4845;
+  color: #fff;
+}
+
+.Button--primary:hover {
+  background-color: #c92a2a;
+}
+
+.Button--secondary {
+  color: #ff4845;
+  background-color: #fff;
+  border-width: 2px;
+  border-color: #ff4845;
+}
+
+.Button--secondary:hover {
+  background-color: #ff4845;
+  color: #fff;
+}

@@ -1,0 +1,24 @@
+.Footer {
+  flex-shrink: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.Footer-menu {
+  text-align: center;
+}
+
+.Footer-menu__item {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a7a7a7;
+}
+
+.Footer-menu__item + .Footer-menu__item {
+  margin-left: 24px;
+}
+
+.Footer-menu__item:hover {
+  color: #666;
+}

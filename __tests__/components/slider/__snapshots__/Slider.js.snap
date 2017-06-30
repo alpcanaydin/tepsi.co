@@ -6,17 +6,33 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <h1>
-        Content
-    </h1>
-</div>,
-  "nodes": Array [
+  "node": <Slider
+    className="Slider"
+    dots={true}>
     <div>
-      <h1>
-            Content
-      </h1>
-</div>,
+        <Slide1 />
+    </div>
+    <div>
+        <Slide2 />
+    </div>
+    <div>
+        <Slide3 />
+    </div>
+</Slider>,
+  "nodes": Array [
+    <Slider
+      className="Slider"
+      dots={true}>
+      <div>
+            <Slide1 />
+      </div>
+      <div>
+            <Slide2 />
+      </div>
+      <div>
+            <Slide3 />
+      </div>
+</Slider>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -24,22 +40,14 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Content>
-        <h1>
-                Content
-        </h1>
-</Content>,
+      "_currentElement": <Slider />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": StatelessComponent {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {
-          "children": <h1>
-            Content
-</h1>,
-        },
+        "props": Object {},
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -60,19 +68,35 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
-          <h1>
-                    Content
-          </h1>
-</div>,
+        "_currentElement": <Slider
+          className="Slider"
+          dots={true}>
+          <div>
+                    <Slide1 />
+          </div>
+          <div>
+                    <Slide2 />
+          </div>
+          <div>
+                    <Slide3 />
+          </div>
+</Slider>,
         "_debugID": 2,
-        "_renderedOutput": <div>
-          <h1>
-                    Content
-          </h1>
-</div>,
+        "_renderedOutput": <Slider
+          className="Slider"
+          dots={true}>
+          <div>
+                    <Slide1 />
+          </div>
+          <div>
+                    <Slide2 />
+          </div>
+          <div>
+                    <Slide3 />
+          </div>
+</Slider>,
       },
-      "_renderedNodeType": 0,
+      "_renderedNodeType": 1,
       "_rootNodeID": 0,
       "_topLevelWrapper": null,
       "_updateBatchNumber": null,
@@ -82,10 +106,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Content>
-    <h1>
-        Content
-    </h1>
-</Content>,
+  "unrendered": <Slider />,
 }
 `;
