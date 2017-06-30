@@ -6,13 +6,15 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <h1>
-    Footer
-</h1>,
+  "node": <header
+    className="Header">
+    <Logo />
+</header>,
   "nodes": Array [
-    <h1>
-      Footer
-</h1>,
+    <header
+      className="Header">
+      <Logo />
+</header>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -20,7 +22,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Footer />,
+      "_currentElement": <Header />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -48,13 +50,15 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <h1>
-          Footer
-</h1>,
+        "_currentElement": <header
+          className="Header">
+          <Logo />
+</header>,
         "_debugID": 2,
-        "_renderedOutput": <h1>
-          Footer
-</h1>,
+        "_renderedOutput": <header
+          className="Header">
+          <Logo />
+</header>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -66,6 +70,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Footer />,
+  "unrendered": <Header />,
 }
 `;

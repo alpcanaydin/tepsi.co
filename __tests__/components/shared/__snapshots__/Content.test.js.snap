@@ -6,13 +6,17 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <h1>
-    Header
-</h1>,
-  "nodes": Array [
+  "node": <main>
     <h1>
-      Header
-</h1>,
+        Content
+    </h1>
+</main>,
+  "nodes": Array [
+    <main>
+      <h1>
+            Content
+      </h1>
+</main>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -20,14 +24,22 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Header />,
+      "_currentElement": <Content>
+        <h1>
+                Content
+        </h1>
+</Content>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": StatelessComponent {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "children": <h1>
+            Content
+</h1>,
+        },
         "refs": Object {},
         "state": null,
         "updater": Object {
@@ -48,13 +60,17 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <h1>
-          Header
-</h1>,
+        "_currentElement": <main>
+          <h1>
+                    Content
+          </h1>
+</main>,
         "_debugID": 2,
-        "_renderedOutput": <h1>
-          Header
-</h1>,
+        "_renderedOutput": <main>
+          <h1>
+                    Content
+          </h1>
+</main>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -66,6 +82,10 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Header />,
+  "unrendered": <Content>
+    <h1>
+        Content
+    </h1>
+</Content>,
 }
 `;
