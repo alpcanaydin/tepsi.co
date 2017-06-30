@@ -6,27 +6,9 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <h2>
-        Ana sayfa
-    </h2>
-    <Link
-        replace={false}
-        to="/basla">
-        Kullanmaya Başla
-    </Link>
-</div>,
+  "node": <Slider />,
   "nodes": Array [
-    <div>
-      <h2>
-            Ana sayfa
-      </h2>
-      <Link
-            replace={false}
-            to="/basla">
-            Kullanmaya Başla
-      </Link>
-</div>,
+    <Slider />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -62,29 +44,11 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
-          <h2>
-                    Ana sayfa
-          </h2>
-          <Link
-                    replace={false}
-                    to="/basla">
-                    Kullanmaya Başla
-          </Link>
-</div>,
+        "_currentElement": <Slider />,
         "_debugID": 2,
-        "_renderedOutput": <div>
-          <h2>
-                    Ana sayfa
-          </h2>
-          <Link
-                    replace={false}
-                    to="/basla">
-                    Kullanmaya Başla
-          </Link>
-</div>,
+        "_renderedOutput": <Slider />,
       },
-      "_renderedNodeType": 0,
+      "_renderedNodeType": 1,
       "_rootNodeID": 0,
       "_topLevelWrapper": null,
       "_updateBatchNumber": null,
