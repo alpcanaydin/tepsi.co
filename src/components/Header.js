@@ -1,5 +1,13 @@
 import React from 'react';
 
-const Header = () => <h1>Header</h1>;
+import Logo from './Logo';
+
+import './Header.css';
+
+const Header = () => (
+  <header className="Header">
+    <Logo />
+  </header>
+);
 
 export default Header;
