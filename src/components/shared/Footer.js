@@ -24,12 +24,12 @@ const Footer = () => (
       </a>
 
       <a
-        href="https://twitter.com/pinquette"
+        href="https://twitter.com/pinquitte"
         className="Footer-menu__item"
         target="_blank"
         rel="noopener noreferrer"
       >
-        @pinquette
+        @pinquitte
       </a>
 
       <a
@@ -42,7 +42,7 @@ const Footer = () => (
       </a>
 
       <a
-        href="https://twitter.com/batuhankrsl"
+        href="https://twitter.com/batuhankrskl"
         className="Footer-menu__item"
         target="_blank"
         rel="noopener noreferrer"

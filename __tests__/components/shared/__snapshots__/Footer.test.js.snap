@@ -26,10 +26,10 @@ ShallowWrapper {
         </a>
         <a
             className="Footer-menu__item"
-            href="https://twitter.com/pinquette"
+            href="https://twitter.com/pinquitte"
             rel="noopener noreferrer"
             target="_blank">
-            @pinquette
+            @pinquitte
         </a>
         <a
             className="Footer-menu__item"
@@ -40,7 +40,7 @@ ShallowWrapper {
         </a>
         <a
             className="Footer-menu__item"
-            href="https://twitter.com/batuhankrsl"
+            href="https://twitter.com/batuhankrskl"
             rel="noopener noreferrer"
             target="_blank">
             @batuhankrskl
@@ -75,10 +75,10 @@ ShallowWrapper {
             </a>
             <a
                   className="Footer-menu__item"
-                  href="https://twitter.com/pinquette"
+                  href="https://twitter.com/pinquitte"
                   rel="noopener noreferrer"
                   target="_blank">
-                  @pinquette
+                  @pinquitte
             </a>
             <a
                   className="Footer-menu__item"
@@ -89,7 +89,7 @@ ShallowWrapper {
             </a>
             <a
                   className="Footer-menu__item"
-                  href="https://twitter.com/batuhankrsl"
+                  href="https://twitter.com/batuhankrskl"
                   rel="noopener noreferrer"
                   target="_blank">
                   @batuhankrskl
@@ -158,10 +158,10 @@ ShallowWrapper {
                     </a>
                     <a
                               className="Footer-menu__item"
-                              href="https://twitter.com/pinquette"
+                              href="https://twitter.com/pinquitte"
                               rel="noopener noreferrer"
                               target="_blank">
-                              @pinquette
+                              @pinquitte
                     </a>
                     <a
                               className="Footer-menu__item"
@@ -172,7 +172,7 @@ ShallowWrapper {
                     </a>
                     <a
                               className="Footer-menu__item"
-                              href="https://twitter.com/batuhankrsl"
+                              href="https://twitter.com/batuhankrskl"
                               rel="noopener noreferrer"
                               target="_blank">
                               @batuhankrskl
@@ -207,10 +207,10 @@ ShallowWrapper {
                     </a>
                     <a
                               className="Footer-menu__item"
-                              href="https://twitter.com/pinquette"
+                              href="https://twitter.com/pinquitte"
                               rel="noopener noreferrer"
                               target="_blank">
-                              @pinquette
+                              @pinquitte
                     </a>
                     <a
                               className="Footer-menu__item"
@@ -221,7 +221,7 @@ ShallowWrapper {
                     </a>
                     <a
                               className="Footer-menu__item"
-                              href="https://twitter.com/batuhankrsl"
+                              href="https://twitter.com/batuhankrskl"
                               rel="noopener noreferrer"
                               target="_blank">
                               @batuhankrskl
