@@ -18,8 +18,11 @@ const configureStore = (prelodedState, history) => {
   /* istanbul ignore if */
   if (process.env.NODE_ENV === 'development') {
     /* eslint-disable */
-    var devExtension = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
-    if (devExtension) composed.push(devExtension);
+    const devExtension =
+      window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
+    if (devExtension) {
+      composed.push(devExtension);
+    }
     /* eslint-enable */
   }
 
