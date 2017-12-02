@@ -21,6 +21,7 @@
   "devDependencies": {
     "codecov": "^3.0.0",
     "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
     "eslint": "^4.12.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -44,22 +45,24 @@
     "lint:eslint": "eslint .",
     "lint:stylelint": "stylelint 'src/**/*.css'",
     "lint": "yarn run lint:eslint && yarn run lint:stylelint",
-    "format":
-      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\"",
+    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\"",
     "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "yarn run lint && yarn test && yarn run coverage",
-    "coverage":
-      "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
-    "postcoverage":
-      "istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80",
+    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
+    "postcoverage": "istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80",
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "*.js": ["yarn run format", "git add"]
+    "*.js": [
+      "yarn run format",
+      "git add"
+    ]
   },
   "pre-commit": "lint-staged",
   "jest": {
-    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
   }
 }
