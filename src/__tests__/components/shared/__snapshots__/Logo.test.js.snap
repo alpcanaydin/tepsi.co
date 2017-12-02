@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<img
+  alt="tepsi.co"
+  height="46"
+  src="logo.svg"
+  width="155"
+/>
+`;

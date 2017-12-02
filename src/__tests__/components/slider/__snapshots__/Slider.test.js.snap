@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Slider
+  className="Slider"
+  dots={true}
+>
+  <div>
+    <Slide1 />
+  </div>
+  <div>
+    <Slide2 />
+  </div>
+  <div>
+    <Slide3 />
+  </div>
+</Slider>
+`;

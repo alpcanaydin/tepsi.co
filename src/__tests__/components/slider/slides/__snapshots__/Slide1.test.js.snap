@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row Slider__slide"
+>
+  <div
+    className="col-md-6"
+  >
+    <h1
+      className="Slider__title Slider__title--main"
+    >
+      Sen de yemek yerken, ne izleyeceğine karar veremiyor musun?
+    </h1>
+    <p
+      className="u-gap-bottom"
+    >
+      Sen yemeğini yerken ne izleyeceğini düşünme ya da izleyecek bir şeyler ararken yemeğini soğutma diye ses ile de kontrol edebileceğin bir sistem geliştirdik.
+    </p>
+    <Button
+      primary={true}
+    >
+      Kullanmaya Başla!
+    </Button>
+  </div>
+  <div
+    className="col-md-6 u-text-center"
+  >
+    <img
+      alt="Sen de yemek yerken, ne izleyeceğine karar veremiyor musun?"
+      className="u-inline-block"
+      height="378"
+      src="slider-image-1.svg"
+      width="400"
+    />
+  </div>
+</div>
+`;
