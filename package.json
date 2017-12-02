@@ -4,64 +4,62 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
-    "history": "^4.6.1",
+    "history": "^4.7.2",
     "normalize.css": "^7.0.0",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-redux": "^5.0.5",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-router-redux": "next",
-    "react-slick": "^0.14.11",
-    "redux": "^3.6.0",
+    "react-slick": "^0.15.4",
+    "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "codecov": "^2.1.0",
-    "enzyme": "^2.8.2",
-    "enzyme-to-json": "^1.5.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-config-prettier": "^2.1.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-prettier": "^2.0.1",
-    "eslint-plugin-react": "^6.10.3",
+    "codecov": "^3.0.0",
+    "enzyme": "^3.2.0",
+    "enzyme-to-json": "^3.2.2",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
     "istanbul": "^0.4.5",
-    "lint-staged": "^3.4.0",
+    "lint-staged": "^6.0.0",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.2.2",
-    "react-scripts": "0.9.5",
-    "react-test-renderer": "^15.5.4",
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0"
+    "prettier": "^1.8.2",
+    "react-scripts": "^1.0.17",
+    "react-test-renderer": "^16.2.0",
+    "stylelint": "^8.3.1",
+    "stylelint-config-standard": "^18.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint:eslint": "eslint .",
-    "lint:stylelint": "stylelint .",
+    "lint:stylelint": "stylelint 'src/**/*.css'",
     "lint": "yarn run lint:eslint && yarn run lint:stylelint",
-    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\"",
+    "format":
+      "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\"",
     "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "yarn run lint && yarn test && yarn run coverage",
-    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
-    "postcoverage": "istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80",
+    "coverage":
+      "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
+    "postcoverage":
+      "istanbul check-coverage --statements 80 --functions 80 --branches 80 --lines 80",
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "*.js": [
-      "yarn run format",
-      "git add"
-    ]
+    "*.js": ["yarn run format", "git add"]
   },
   "pre-commit": "lint-staged",
   "jest": {
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ]
+    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
   }
 }
