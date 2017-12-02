@@ -11,9 +11,8 @@ const Slide1 = () => (
       </h1>
 
       <p className="u-gap-bottom">
-        Sen yemeğini yerken ne izleyeceğini düşünme ya da izleyecek bir şeyler
-        ararken yemeğini soğutma diye ses ile de kontrol edebileceğin bir
-        sistem geliştirdik.
+        Sen yemeğini yerken ne izleyeceğini düşünme ya da izleyecek bir şeyler ararken yemeğini
+        soğutma diye ses ile de kontrol edebileceğin bir sistem geliştirdik.
       </p>
 
       <Button primary>Kullanmaya Başla!</Button>

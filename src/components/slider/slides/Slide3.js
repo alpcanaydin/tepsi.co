@@ -11,8 +11,8 @@ const Slide3 = () => (
       </h2>
 
       <p className="u-gap-bottom">
-        Yağlı ellerinle klavye ve mouse’unu kirletme, seslenerek Tepsi’ye komutlar
-        ver. Hangi komutların ne işe yaradığını öğrenmek için buraya tıkla!
+        Yağlı ellerinle klavye ve mouse’unu kirletme, seslenerek Tepsi’ye komutlar ver. Hangi
+        komutların ne işe yaradığını öğrenmek için buraya tıkla!
       </p>
 
       <Button primary>Kullanmaya Başla!</Button>

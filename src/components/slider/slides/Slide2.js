@@ -11,9 +11,8 @@ const Slide2 = () => (
       </h2>
 
       <p className="u-gap-bottom">
-        Video izlemeye başlamak için ilk önce kategorini seç ve rastgele
-        seçtiğimiz videonun keyfini çıkar. Eğer videoyu beğenmezsen
-        sıradaki video’ya geç.
+        Video izlemeye başlamak için ilk önce kategorini seç ve rastgele seçtiğimiz videonun keyfini
+        çıkar. Eğer videoyu beğenmezsen sıradaki video’ya geç.
       </p>
 
       <Button primary>Kullanmaya Başla!</Button>

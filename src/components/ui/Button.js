@@ -14,7 +14,11 @@ const Button = ({ primary, secondary, children, ...otherProps }) => {
     classNames.push('Button--secondary');
   }
 
-  return <button className={classNames.join(' ')} {...otherProps}>{children}</button>;
+  return (
+    <button className={classNames.join(' ')} {...otherProps}>
+      {children}
+    </button>
+  );
 };
 
 Button.defaultProps = {
