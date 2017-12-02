@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row Slider__slide"
+>
+  <div
+    className="col-md-6"
+  >
+    <h2
+      className="Slider__title"
+    >
+      Yağlı ellerinle klavyeye dokunma, seslenerek Tepsi’yi kontrol et!
+    </h2>
+    <p
+      className="u-gap-bottom"
+    >
+      Yağlı ellerinle klavye ve mouse’unu kirletme, seslenerek Tepsi’ye komutlar ver. Hangi komutların ne işe yaradığını öğrenmek için buraya tıkla!
+    </p>
+    <Button
+      primary={true}
+    >
+      Kullanmaya Başla!
+    </Button>
+  </div>
+  <div
+    className="col-md-6 u-text-center"
+  >
+    <img
+      alt="Yağlı ellerinle klavyeye dokunma, seslenerek Tepsi’yi kontrol et!"
+      className="u-inline-block"
+      height="378"
+      src="slider-image-3.svg"
+      width="400"
+    />
+  </div>
+</div>
+`;

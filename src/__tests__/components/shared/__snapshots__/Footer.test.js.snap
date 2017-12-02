@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<footer
+  className="Footer"
+>
+  <nav
+    className="Footer-menu"
+  >
+    <a
+      className="Footer-menu__item"
+      href="https://github.com/alpcanaydin/tepsi.co"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      kaynağı görüntüle
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/alpcanaydin"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @alpcanaydin
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/pinquitte"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @pinquitte
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/bigrandma"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @bigrandma
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/batuhankrskl"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @batuhankrskl
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/hsnaydd"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @hsnaydd
+    </a>
+  </nav>
+</footer>
+`;

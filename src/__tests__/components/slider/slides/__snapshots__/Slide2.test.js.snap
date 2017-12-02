@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="row Slider__slide"
+>
+  <div
+    className="col-md-6"
+  >
+    <h2
+      className="Slider__title"
+    >
+      Kategorini seç, senin için seçtiğimiz videonun keyfini çıkar!
+    </h2>
+    <p
+      className="u-gap-bottom"
+    >
+      Video izlemeye başlamak için ilk önce kategorini seç ve rastgele seçtiğimiz videonun keyfini çıkar. Eğer videoyu beğenmezsen sıradaki video’ya geç.
+    </p>
+    <Button
+      primary={true}
+    >
+      Kullanmaya Başla!
+    </Button>
+  </div>
+  <div
+    className="col-md-6 u-text-center"
+  >
+    <img
+      alt="Kategorini seç, senin için seçtiğimiz videonun keyfini çıkar!"
+      className="u-inline-block"
+      height="378"
+      src="slider-image-2.svg"
+      width="400"
+    />
+  </div>
+</div>
+`;
